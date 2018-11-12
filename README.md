@@ -31,7 +31,13 @@ Original and denoised (with Haar) severity signal
 
 Original and denoised (with Haar) severity signal in one chart
 
-Afer denoising, feed the denoised data series into a LSTM model. For every wavelet basis, train the model and make predictions. Then try different wavelets basis.
+Afer denoising, feed the denoised data series into a LSTM model. 
+
+![alt text](https://github.com/Tony-1024/Wavelet-Neural-Network/blob/master/images/lstm.JPG)
+
+For every wavelet basis, train the model and make predictions. Then try different wavelets basis.
+
+The RMSE values of severity, program, and host of the three models are shown as below.
 
 ![alt text](https://github.com/Tony-1024/Wavelet-Neural-Network/blob/master/images/The%20comparison%20of%20RMSE%20values.JPG)
 
