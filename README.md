@@ -19,7 +19,7 @@ Wavelet threshold denoising process
 
 A number of wavelets can be used, such as Haar, Morlet, Daubechies, Coiflet, Symlets.
 
-3. Wavelet Denoising Resule
+3. Wavelet Denoising Result
 
 Take Haar for example, below shows the comparation between original singal and denoised signal:
 
