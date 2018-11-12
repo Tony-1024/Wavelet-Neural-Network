@@ -1,5 +1,5 @@
 # Wavelet-Neural-Network
-This project attempts to find an improved neural network model for handling time series that contain non-linear, non-stationary, high noisy and chaotic characteristics. The model combines neural network with wavelet.
+This code attempts to find an improved neural network model for handling time series that contain non-linear, non-stationary, high noisy and chaotic characteristics. The dataset is from the logs of a cloud platform, which contains noise intentionally, The model combines neural network with wavelet.
 
 1. Wavelet transform
 
@@ -31,10 +31,12 @@ Original and denoised (with Haar) severity signal
 
 Original and denoised (with Haar) severity signal in one chart
 
-The experimental results demonstrate the proposed model is more effective and accurate, it has a better ability for feature attraction and noise tolerance than conventional neural networks.
+Afer denoising, the denoised data is feed into a LSTM network.
 
 ![alt text](https://github.com/Tony-1024/Wavelet-Neural-Network/blob/master/images/The%20comparison%20of%20RMSE%20values.JPG)
 
 The comparison of RMSE values
 
 The result shows that lower RMSE values for wavelet neural network models when compared to a conventional network. Take DB3 for example, the MSE values of severity, program, and host predictions are 40.3%, 18.9%, and 16.4% less than the corresponding values of conventional neural network respectively.
+
+The results demonstrate the proposed model is more effective and accurate, it has a better ability for feature attraction and noise tolerance than conventional neural networks.
