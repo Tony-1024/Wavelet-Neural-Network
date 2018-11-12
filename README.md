@@ -1,5 +1,5 @@
 # Wavelet-Neural-Network
-This code attempts to find an improved neural network model for handling time series that contain non-linear, non-stationary, high noisy and chaotic characteristics. The dataset is from the logs of a cloud platform, which contains noise intentionally, The model combines neural network with wavelet.
+This code attempts to find an improved neural network model for handling time series that contain non-linear, non-stationary, high noisy and chaotic characteristics. The dataset is from the logs of a cloud platform, which contains high noise intentionally, The model for training and predicting in this code combines neural network with wavelet.
 
 1. Wavelet transform
 
