@@ -35,7 +35,24 @@ Afer denoising, feed the denoised data series into a LSTM model.
 
 ![alt text](https://github.com/Tony-1024/Wavelet-Neural-Network/blob/master/images/lstm.JPG)
 
-For every wavelet basis, train the model and make predictions. Then try different wavelets basis.
+To compare with the results between wavelet neural network and the conventional one, I created three types of neural networks
+(NN): Haar wavelet NN, Daubechies 3 (DB3) wavelet NN, and conventional NN. These three network models were initialized with the same parameters and trained with the same datasets and the results were compared. Note that the conventional NN is simply a plain neural network, not involving any wavelet transform.
+
+All the LSTM parts of the three models are configured with the same structures and parameters. Train them with 60 epochs, we get prediction results of severity, program, and host by Haar, DB3, and Conventional network models respectively, as shown in the following figures.
+
+Figures below show the severity prediction results using (a) Haar wavelet NN, (b) DB3 wavelet NN, and (c) Conventional NN. We can see that a wavelet NN predicts significantly better than a conventional NN. We obtained similar results for other features, host id and program id.
+
+![alt text](https://github.com/Tony-1024/Wavelet-Neural-Network/blob/master/images/Haar%20NN.png)
+
+(a) Haar Wavelet NN
+
+![alt text](https://github.com/Tony-1024/Wavelet-Neural-Network/blob/master/images/DB3%20NN.png)
+
+(b) DB3 Wavelet NN
+
+![alt text](https://github.com/Tony-1024/Wavelet-Neural-Network/blob/master/images/Conventional%20NN.png)
+
+(c) Conventional NN
 
 The RMSE values of severity, program, and host of the three models are shown as below.
 
